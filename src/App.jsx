@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Head from "./components/Head";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Navbar from "./components/Navbar/Navbar";

@@ -61,18 +61,18 @@ const Contact = () => {
                   </label>
                   <input
                     class="border-2 rounded-lg p-3 flex border-gray-300"
-                    type="email"
+                    type="text"
                   ></input>
                 </div>
-                  <div class="flex flex-col py-2">
+                <div class="flex flex-col py-2">
                   <label className="uppercase text-gray-800 text-sm py-2">
-                   téléphone
+                    téléphone
                   </label>
                   <input
                     class="border-2 rounded-lg p-3 flex border-gray-300"
-                    type="email"
+                    type="text"
                   ></input>
-                  </div>
+                </div>
                 <div class="flex flex-col py-2">
                   <label className="uppercase text-gray-800 text-sm py-2">
                     Email
@@ -114,10 +114,10 @@ const Contact = () => {
         </div>
       </div>
       <div class="flex justify-center text-gray-800">
-        <Link smooth to='#home'>
-        <div class="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-          <HiOutlineChevronDoubleUp size={30} class="m-auto text-[#0D9488]" />
-        </div>
+        <Link smooth to="#home">
+          <div class="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <HiOutlineChevronDoubleUp size={30} class="m-auto text-[#0D9488]" />
+          </div>
         </Link>
       </div>
     </div>
