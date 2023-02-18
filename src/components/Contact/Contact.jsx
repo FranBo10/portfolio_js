@@ -31,7 +31,7 @@ const Contact = () => {
                 />
               </div>
               <div class="text-gray-800">
-                <h2 class="py-2">Name here</h2>
+                <h2 class="py-2">Francisco Garcia</h2>
                 <p class="text-xl py-2 font-bold">Front-end Developper</p>
                 <p>
                   Je suis disponible à temps complet. Contactez-moi et
@@ -57,7 +57,7 @@ const Contact = () => {
                 <div class="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div class="flex flex-col">
                     <label className="uppercase text-gray-800 text-sm py-2">
-                      Name
+                      nom complet
                     </label>
                     <input
                       class="border-2 rounded-lg p-3 flex"
@@ -85,7 +85,7 @@ const Contact = () => {
                 </div>
                 <div class="flex flex-col py-2">
                   <label className="uppercase text-gray-800 text-sm py-2">
-                    Subject
+                    Suject
                   </label>
                   <input
                     class="border-2 rounded-lg p-3 flex"
