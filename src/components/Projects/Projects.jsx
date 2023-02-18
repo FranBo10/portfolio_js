@@ -10,7 +10,7 @@ import ProjectItem from "../ProjectItem/ProjectItem";
 const Projects = () => {
   return (
     <div id="projects" class="w-full">
-      <div class="max-w-[1240px] mx-auto px-2 py-16">
+      <div class="max-w-[1240px] mx-auto px-2 py-10">
         <p class="text-xl tracking-widest uppercase text-[#0D9488] font-bold">
           Projets
         </p>
