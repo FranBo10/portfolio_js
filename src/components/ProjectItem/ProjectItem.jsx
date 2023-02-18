@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const ProjectItem = ({ title, backgroundImg, projectUrl }) => {
   return (
-    <div class="relative flex items-center justify-center h-auto w-4/5 shadow-xl shadow-gray-400 rounded-xl p-1 group hover:bg-gradient-to-r from-cyan-500 text- to-teal-500 cursor-pointer hover:scale-105 ease-in duration-100">
+    <div class="relative flex items-center justify-center h-auto shadow-xl shadow-gray-400 rounded-xl p-1 group hover:bg-gradient-to-r from-cyan-500 text- to-teal-500 cursor-pointer hover:scale-105 ease-in duration-100">
       <img
         class="rounded-xl group-hover:opacity-10 h-full w-full"
         src={backgroundImg}

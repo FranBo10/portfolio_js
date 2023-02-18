@@ -9,13 +9,13 @@ import ProjectItem from "../ProjectItem/ProjectItem";
 
 const Projects = () => {
   return (
-    <div id="projects" class="w-full lg:h-screen">
-      <div class="max-w-[1240px] flex flex-col align-center justify-center py-10 ml-20 mt-20">
+    <div id="projects" class="w-full">
+      <div class="max-w-[1240px] mx-auto px-2 py-16">
         <p class="text-xl tracking-widest uppercase text-[#0D9488] font-bold">
           Projets
         </p>
         <h2 class="py-4 dark:text-gray-100">Voici mes projets</h2>
-        <div class="grid grid-cols-1 grid-item gap-8 sm:grid-cols-2 min-w-full">
+        <div class="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="ToDoList"
             backgroundImg={todolist}

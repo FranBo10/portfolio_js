@@ -127,7 +127,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 </div>
                 <div class="py-4 flex flex-col w-[90%]">
                   <ul class="uppercase text-gray-800">
-                    <Link to={"/"}>
+                    <Link smooth to="#home">
                       <li
                         onClick={() => setNav(false)}
                         class="px-4 py-4 text-sm cursor-pointer hover:scale-110 ease-in duration-200 shadow-lg shadow-gray-400"
@@ -135,7 +135,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                         Home
                       </li>
                     </Link>
-                    <Link to={"/#about"}>
+                    <Link smooth to="#about">
                       <li
                         onClick={() => setNav(false)}
                         class="px-4 py-4 text-sm cursor-pointer hover:scale-110 ease-in duration-200 shadow-lg shadow-gray-400"
@@ -143,7 +143,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                         About me
                       </li>
                     </Link>
-                    <Link to={"/#skills"}>
+                    <Link smooth to="#skills">
                       <li
                         onClick={() => setNav(false)}
                         class="px-4 py-4 text-sm cursor-pointer hover:scale-110 ease-in duration-200 shadow-lg shadow-gray-400"
@@ -151,7 +151,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                         Skills
                       </li>
                     </Link>
-                    <Link to={"/#projects"}>
+                    <Link smooth to="#projects">
                       <li
                         onClick={() => setNav(false)}
                         class="px-4 py-4 text-sm cursor-pointer hover:scale-110 ease-in duration-200 shadow-lg shadow-gray-400"
@@ -159,7 +159,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                         Projects
                       </li>
                     </Link>
-                    <Link to={"/#contact"}>
+                    <Link smooth to="#contact">
                       <li
                         onClick={() => setNav(false)}
                         class="px-4 py-4 text-sm cursor-pointer hover:scale-110 ease-in duration-200 shadow-lg shadow-gray-400"

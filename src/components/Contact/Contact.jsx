@@ -11,7 +11,7 @@ import orde from "../../img/web-development.png";
 const Contact = () => {
   return (
     <div id="contact" class="w-full lg:h-screen">
-      <div class="max-w-[1240px] flex flex-col align-center justify-center py-10 ml-20 mt-60">
+      <div class="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p class="text-xl tracking-widest uppercase text-[#0D9488] font-bold">
           Contact
         </p>
@@ -19,7 +19,7 @@ const Contact = () => {
         <div class="grid lg:grid-cols-5 gap-8">
           {/* left */}
           <div class="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 dark:bg-gray-200">
-            <div class="sm:flex gap-5 p-4 h-full lg:flex-col ">
+            <div class="lg:p-4 h-full ">
               <div>
                 <img
                   class="rounded-xl hover:scale-105 ease-in duration-300"
@@ -32,7 +32,7 @@ const Contact = () => {
               </div>
               <div class="text-gray-800">
                 <h2 class="py-2">Name here</h2>
-                <p class="text-xl py-2">Front-end Developper</p>
+                <p class="text-xl py-2 font-bold">Front-end Developper</p>
                 <p>
                   Je suis disponible à temps complet. Contactez-moi et
                   parlons-en.

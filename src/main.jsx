@@ -11,7 +11,7 @@ import Error from "../src/routes/Error";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/portfolio_js",
     element: <App />,
     errorElement: <Error />,
   },
