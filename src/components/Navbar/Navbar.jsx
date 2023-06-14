@@ -61,7 +61,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           </IconButton>
         </Box>
         <div>
-          <ul class="hidden md:flex cursor-pointer">
+          <ul class="hidden md:flex cursor-pointer items-center">
             <Link smooth to="#about">
               <li class="ml-10 text-sm uppercase hover:border-b">
                 Qui suis-je
@@ -79,7 +79,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               <li class="ml-10 text-sm uppercase hover:border-b">Contact</li>
             </Link>
             <li class="ml-10 text-sm uppercase hover:border-b">
-              <a href="https://franbo10.github.io/francisco_cv/">Mon CV</a>
+              <button class="p-3 rounded text-xl bg-teal-600 font-medium"><a href="https://franbo10.github.io/francisco_cv/">Mon CV</a></button> 
             </li>
           </ul>
         </div>
