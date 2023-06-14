@@ -79,7 +79,9 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               <li class="ml-10 text-sm uppercase hover:border-b">Contact</li>
             </Link>
             <li class="ml-10 text-sm uppercase hover:border-b">
-              <button class="p-3 rounded text-xl bg-teal-600 font-medium"><a href="https://franbo10.github.io/francisco_cv/">Mon CV</a></button> 
+              <button class="p-3 rounded text-xl bg-teal-600 font-medium">
+                <a href="https://franbo10.github.io/francisco_cv/">Mon CV</a>
+              </button>
             </li>
           </ul>
         </div>
@@ -129,6 +131,12 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                       Home
                     </li>
                   </Link>
+                  <li class="px-4 py-4 text-sm bg-gradient-to-b from-teal-500 cursor-pointer hover:scale-110 ease-in duration-200 shadow-sm">
+                    <a href="https://franbo10.github.io/francisco_cv/">
+                      {" "}
+                      Mon CV
+                    </a>
+                  </li>
                   <Link smooth to="#about">
                     <li
                       onClick={() => setNav(false)}
