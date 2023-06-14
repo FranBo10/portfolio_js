@@ -1,16 +1,16 @@
 import React from "react";
 import todolist from "../../img/todolist.png";
 import pokedex from "../../img/pokedex.jpg";
-import pokeapi from "../../img/pokeapi.png";
+import pokedex2 from "../../img/pokedex2.png";
 import web4 from "../../img/web4.png";
 import web5 from "../../img/web5.png";
-import calculator from "../../img/calculator.png";
+import bolata from "../../img/bolata.png";
 import ProjectItem from "../ProjectItem/ProjectItem";
 
 const Projects = () => {
   return (
     <div id="projects" class="w-full">
-      <div class="max-w-[1240px] mx-auto px-2 py-10">
+      <div class="max-w-[1240px] m-auto px-2 my-16">
         <p class="text-xl tracking-widest uppercase text-[#0D9488] font-bold">
           Projets
         </p>
@@ -22,9 +22,9 @@ const Projects = () => {
             projectUrl="https://franbo10.github.io/todolist_js/"
           />
           <ProjectItem
-            title="CalculatriceJS"
-            backgroundImg={calculator}
-            projectUrl="https://franbo10.github.io/calculator_js/"
+            title="Bar LaBolata"
+            backgroundImg={bolata}
+            projectUrl="https://www.labolatabar.es/"
           />
           <ProjectItem
             title="Pokedex"
@@ -33,7 +33,7 @@ const Projects = () => {
           />
           <ProjectItem
             title="PokeAPI"
-            backgroundImg={pokeapi}
+            backgroundImg={pokedex2}
             projectUrl="https://franbo10.github.io/pokemon_js/"
           />
         </div>

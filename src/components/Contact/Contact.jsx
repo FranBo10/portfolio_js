@@ -11,8 +11,8 @@ import orde from "../../img/web-development.png";
 
 const Contact = () => {
   return (
-    <div id="contact" class="w-full lg:h-screen">
-      <div class="max-w-[1240px] m-auto px-2 py-16 w-full">
+    <div id="contact" class="w-full">
+      <div class="max-w-[1240px] m-auto px-2 w-full">
         <p class="text-xl tracking-widest uppercase text-[#0D9488] font-bold">
           Contact
         </p>
@@ -115,7 +115,7 @@ const Contact = () => {
       </div>
       <div class="flex justify-center text-gray-800">
         <Link smooth to="#home">
-          <div class="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+          <div class="rounded-full shadow-lg shadow-gray-400 p-6 my-6 cursor-pointer hover:scale-110 ease-in duration-300">
             <HiOutlineChevronDoubleUp size={30} class="m-auto text-[#0D9488]" />
           </div>
         </Link>

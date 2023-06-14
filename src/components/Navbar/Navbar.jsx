@@ -1,7 +1,7 @@
 import { React, useState, useEffect } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import Avatar from "@mui/material/Avatar";
-import avatar from "../../img/avatar.png";
+import avatar from "../../img/perfilcv.png";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import {
   AiOutlineClose,
@@ -47,9 +47,9 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               <Avatar>
                 <img
                   src={avatar}
-                  layout="fill"
+                  class="avatar"
                   objectFit="cover"
-                  alt="avatar"
+                  alt="profil"
                 />
               </Avatar>
               <AiOutlineMenu
@@ -77,6 +77,9 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             </Link>
             <Link smooth to="#contact">
               <li class="ml-10 text-sm uppercase hover:border-b">Contact</li>
+            </Link>
+            <Link>
+              <a class="ml-10 text-sm uppercase hover:border-b" href="https://franbo10.github.io/francisco_cv/">Mon CV</a>
             </Link>
           </ul>
         </div>
