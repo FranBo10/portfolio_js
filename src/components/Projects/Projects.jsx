@@ -4,7 +4,7 @@ import pokedex from "../../img/pokedex.jpg";
 import pokedex2 from "../../img/pokedex2.png";
 import web4 from "../../img/web4.png";
 import web5 from "../../img/web5.png";
-import bolata from "../../img/bolata.png";
+import freetourgo from "../../img/freetourgo.png";
 import ProjectItem from "../ProjectItem/ProjectItem";
 
 const Projects = () => {
@@ -22,9 +22,9 @@ const Projects = () => {
             projectUrl="https://franbo10.github.io/todolist_js/"
           />
           <ProjectItem
-            title="Bar LaBolata"
-            backgroundImg={bolata}
-            projectUrl="https://www.labolatabar.es/"
+            title="FreetourGo"
+            backgroundImg={freetourgo}
+            projectUrl="https://freetourgo.com"
           />
           <ProjectItem
             title="Pokedex"
