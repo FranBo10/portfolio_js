@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Skills from "./components/Skills/Skills";
 import Header from "./components/Header/Header";
 import About from "./components/About";
+import Cards from "./components/Cards/Cards";
 
 function App() {
   const [darkMode, setDarkMode] = useState(null);
@@ -26,12 +27,13 @@ function App() {
   }, [darkMode]);
 
   return (
-    <div className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+    <div className=" bg-gray-200 px-10 dark:bg-gray-900 md:px-20 lg:px-40">
       <Navbar setDarkMode={setDarkMode} darkMode={darkMode} />
       <Header />
       <About />
       <Skills />
       <Projects />
+      <Cards />
       <Contact />
     </div>
   );

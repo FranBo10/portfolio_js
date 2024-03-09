@@ -1,7 +1,7 @@
 import React from "react";
 import todolist from "../../img/todolist.png";
 import pokedex from "../../img/pokedex.jpg";
-import pokedex2 from "../../img/pokedex2.png";
+import popine from "../../img/popine.png";
 import karnak from "../../img/karnak.png";
 import web5 from "../../img/web5.png";
 import freetourgo from "../../img/freetourgo.png";
@@ -16,11 +16,11 @@ const Projects = () => {
         </p>
         <h2 class="py-4 dark:text-gray-100">Voici mes projets</h2>
         <div class="grid md:grid-cols-2 gap-8">
-        <ProjectItem
-            title="Karnak Porcellanato"
-            description="Premier projet HTML / CSS (2020)"
-            backgroundImg={karnak}
-            projectUrl="https://franbo10.github.io/karnak/"
+          <ProjectItem
+            title="Pizzeria Popine"
+            description="Application web PHP Symfony / Javascript (2024)"
+            backgroundImg={popine}
+            projectUrl="https://popineparis.osc-fr1.scalingo.io/"
           />
           <ProjectItem
             title="FreetourGo"
@@ -29,8 +29,14 @@ const Projects = () => {
             projectUrl="https://freetourgo.com"
           />
           <ProjectItem
+            title="Karnak Porcellanato"
+            description="Premier projet HTML / CSS (2020)"
+            backgroundImg={karnak}
+            projectUrl="https://franbo10.github.io/karnak/"
+          />
+          <ProjectItem
             title="Pokedex"
-            description="Connexion à PokeAPI, affiche et système de recherche de Pokemons"
+            description="React / Vite - Connexion à PokeAPI, affiche et système de recherche de Pokemons"
             backgroundImg={pokedex}
             projectUrl="https://franbo10.github.io/pokedex_js/"
           />

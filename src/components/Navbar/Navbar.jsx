@@ -75,12 +75,15 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <Link smooth to="#projects">
               <li class="ml-10 text-sm uppercase hover:border-b">Projets</li>
             </Link>
+            <Link smooth to="#services">
+              <li class="ml-10 text-sm uppercase hover:border-b">Services</li>
+            </Link>
             <Link smooth to="#contact">
               <li class="ml-10 text-sm uppercase hover:border-b">Contact</li>
             </Link>
             <li class="ml-10 text-sm uppercase hover:border-b">
-              <button class="p-3 rounded text-xl bg-teal-600 font-medium">
-                <a href="https://franbo10.github.io/francisco_cv/">Mon CV</a>
+              <button class="p-3 rounded text-xl hover:scale-105 ease-in duration-300 bg-teal-600 font-medium">
+                <a href="https://franbo10.github.io/cv_esp/">Mon CV</a>
               </button>
             </li>
           </ul>
