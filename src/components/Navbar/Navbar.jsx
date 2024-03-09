@@ -83,7 +83,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             </Link>
             <li class="ml-10 text-sm uppercase hover:border-b">
               <button class="p-3 rounded text-xl hover:scale-105 ease-in duration-300 bg-teal-600 font-medium">
-                <a href="https://franbo10.github.io/cv_esp/">Mon CV</a>
+                <a href="https://franbo10.github.io/cv_fr/">Mon CV</a>
               </button>
             </li>
           </ul>
