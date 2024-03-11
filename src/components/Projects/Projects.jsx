@@ -4,7 +4,7 @@ import pokedex from "../../img/pokedex.jpg";
 import popine from "../../img/popine.png";
 import karnak from "../../img/karnak.png";
 import cursos from "../../img/curso.png";
-import web5 from "../../img/web5.png";
+import tshop from "../../img/t-shop.png";
 import freetourgo from "../../img/freetourgo.png";
 import ProjectItem from "../ProjectItem/ProjectItem";
 
@@ -28,6 +28,12 @@ const Projects = () => {
             description="Application web PHP Symfony / Javascript (2023)"
             backgroundImg={freetourgo}
             projectUrl="https://freetourgo.com"
+          />
+          <ProjectItem
+            title="T-Shop (E-Commerce)"
+            description="PHP / Symfony / Bootstrap - Aplication basique e-commerce avec Bootstrap"
+            backgroundImg={tshop}
+            projectUrl="https://t-shop.osc-fr1.scalingo.io/"
           />
           <ProjectItem
             title="Karnak Porcellanato"
