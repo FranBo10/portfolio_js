@@ -11,9 +11,9 @@ const ProjectItem = ({ title, description, backgroundImg, projectUrl }) => {
         alt=""
       />
       <div class="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-        <h3 class="text-2xl text-teal-500 tracking-wider text-center"></h3>
+        <h3 class="text-2xl text-teal-500 text-center"></h3>
         <p class="pb-4 pt-2 text-teal-500 text-center text-2xl">{title}</p>
-        <p class="pb-4 pt-2 text-teal-500 text-center text-xl">{description}</p>
+        <p class="pb-4 pt-2 text-teal-500 text-center text-lg">{description}</p>
         <div class="flex">
           <Link
             to={projectUrl}

@@ -31,7 +31,9 @@ const Cards = () => {
             alt="html"
             class="mx-auto"
           />
-          <h3 class="text-lg font-medium pt-3 pb-2 ">De beaux designs</h3>
+          <h3 class="text-lg font-medium pt-3 border-b inline-block border-black">
+            De beaux designs
+          </h3>
           <p class="py-2">
             Création de designs élégants adaptés à vos besoins en suivant la
             théorie de design de base.
@@ -68,7 +70,7 @@ const Cards = () => {
               class="mx-auto"
             />
           </div>
-          <h3 class="text-lg font-medium pt-3 pb-2 ">Evolution</h3>
+          <h3 class="text-lg font-medium pt-3 border-b inline-block border-black">Evolution</h3>
           <p class="py-2">
             Une veille technologique constante garantira que votre application
             reste toujours à jour.

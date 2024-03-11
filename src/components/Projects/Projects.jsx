@@ -3,6 +3,7 @@ import todolist from "../../img/todolist.png";
 import pokedex from "../../img/pokedex.jpg";
 import popine from "../../img/popine.png";
 import karnak from "../../img/karnak.png";
+import cursos from "../../img/curso.png";
 import web5 from "../../img/web5.png";
 import freetourgo from "../../img/freetourgo.png";
 import ProjectItem from "../ProjectItem/ProjectItem";
@@ -39,6 +40,12 @@ const Projects = () => {
             description="React / Vite - Connexion à PokeAPI, affiche et système de recherche de Pokemons"
             backgroundImg={pokedex}
             projectUrl="https://franbo10.github.io/pokedex_js/"
+          />
+          <ProjectItem
+            title="Continúa Formándote"
+            description="PHP / WordPress - Utilisation de LearnPress, Ultimate Member et Stripe"
+            backgroundImg={cursos}
+            projectUrl="https://continua-formandote.netlify.app/"
           />
           {/* <ProjectItem
             title="PokeAPI"
