@@ -31,7 +31,7 @@ const Projects = () => {
           />
           <ProjectItem
             title="T-Shop (E-Commerce)"
-            description="PHP / Symfony / Bootstrap - Aplication basique e-commerce avec Bootstrap"
+            description="PHP / Symfony / Bootstrap - Aplication basique e-commerce avec Bootstrap (2022)"
             backgroundImg={tshop}
             projectUrl="https://t-shop.osc-fr1.scalingo.io/"
           />
@@ -43,13 +43,13 @@ const Projects = () => {
           />
           <ProjectItem
             title="Pokedex"
-            description="React / Vite - Connexion à PokeAPI, affiche et système de recherche de Pokemons"
+            description="React / Vite - Connexion à PokeAPI, affiche et système de recherche de Pokemons (2021)"
             backgroundImg={pokedex}
             projectUrl="https://franbo10.github.io/pokedex_js/"
           />
           <ProjectItem
             title="Continúa Formándote"
-            description="PHP / WordPress - Utilisation de LearnPress, Ultimate Member et Stripe"
+            description="PHP / WordPress - Utilisation de LearnPress, Ultimate Member et Stripe (2022)"
             backgroundImg={cursos}
             projectUrl="https://continua-formandote.netlify.app/"
           />

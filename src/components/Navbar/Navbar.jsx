@@ -43,18 +43,18 @@ const Navbar = ({ darkMode, setDarkMode }) => {
       <Toolbar disableGutters>
         <Box sx={{ flexGrow: 1 }}>
           <IconButton sx={{ p: 0 }}>
-            <div class="flex items-center gap-3 text-[#0D9488]">
-              <Avatar>
+            <div class="flex items-center text-[#0D9488]">
+              {/* <Avatar>
                 <img
                   src={avatar}
                   class="avatar"
                   objectFit="cover"
                   alt="profil"
                 />
-              </Avatar>
+              </Avatar> */}
               <AiOutlineMenu
                 onClick={handleNav}
-                class="md:hidden dark:text-gray-200"
+                class="lg:hidden dark:text-gray-200"
                 size={25}
               />
             </div>
@@ -82,7 +82,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               <li class="ml-10 text-sm uppercase hover:border-b">Contact</li>
             </Link>
             <li class="ml-10 text-sm uppercase hover:border-b">
-              <button class="p-3 rounded text-xl hover:scale-105 ease-in duration-300 bg-teal-600 font-medium">
+              <button class="px-2 rounded text-xl text-white hover:scale-105 ease-in duration-300 bg-teal-600 font-medium">
                 <a href="https://franbo10.github.io/cv_fr/">Mon CV</a>
               </button>
             </li>
